@@ -11,10 +11,11 @@ icone.addEventListener('click', function(){
 btnButton.addEventListener('click', function(){
     console.log('yes');
     btnButton.classList.toggle('abonne');
-    if(btnButton.innerText === "abonné"){
-        btnButton.innerText = "abonnez vous";
-    }else{
+     if(btnButton.innerText === "abonné"){
+         btnButton.innerText = "abonnez vous";
+     }else{
         btnButton.innerText = "abonné";
     };
+   
     
 });
